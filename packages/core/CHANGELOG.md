@@ -1,5 +1,11 @@
 # xstate
 
+## 4.30.6
+
+### Patch Changes
+
+- [#3131](https://github.com/statelyai/xstate/pull/3131) [`d9a0bcfc9`](https://github.com/statelyai/xstate/commit/d9a0bcfc9be03e49726d6dc4a6bbce25239913a1) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with event type being inferred from too many places within `createMachine` call and possibly ending up as `any`/`AnyEventObject` for the entire machine.
+
 ## 4.30.5
 
 ### Patch Changes
